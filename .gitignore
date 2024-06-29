@@ -26,4 +26,4 @@ debug/*
 release/*
 private/*
 
-.exe
+*.exe
