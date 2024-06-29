@@ -22,8 +22,8 @@
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
 
-debug/
-release/
-private/
+debug/*
+release/*
+private/*
 
 .exe
