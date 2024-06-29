@@ -9,29 +9,25 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(NULL);
 
-    int N, a;
-    int arr[110];
 
-    cin >> N;
+    int A[10002];
+    int N, X, a;
+
+    cin >> N >> X;
 
     for (int i = 1; i <= N; i++)
     {
         cin >> a;
-        arr[i] = a;
+        A[i] = a;
     }
-
-    int v, same;
-
-    cin >> v;
-    same = 0;
 
     for (int i = 1; i <= N; i++)
     {
-        if (arr[i] == v)
-            same++;
+        if (A[i] < X)
+        {
+            cout << A[i] << " ";
+        }
     }
-
-    cout << same;
 
     return 0;
 
